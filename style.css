@@ -1,0 +1,327 @@
+/*
+Theme Name:   tyche child
+Theme URI:    https://colorlib.com/wp/themes/tyche/
+Description:  Tyche Child Theme
+Author:       Creasoeva
+Author URI:   http://#
+Template:     tyche
+Version:      1.0.0
+License:      GNU General Public License v2 or later
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+Tags:         responsive-layout
+Text Domain:  tyche-child
+*/
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+/*font-family: 'Bree Serif', serif;*/
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+/*font-family: 'Great Vibes', cursive;*/
+@import url('https://fonts.googleapis.com/css?family=Bitter');
+/*font-family: 'Bitter', serif;*/
+@import url('https://fonts.googleapis.com/css?family=Bungee');
+/*font-family: 'Bungee', cursive;*/
+
+
+body{
+	font-family: 'Bitter', serif;
+}
+
+/*Page Home*/
+	/*Header*/
+		/*Barre connexion*/
+		.top-header-bar-container{
+			background-color: #E9AA76;
+		}
+			/*Texte*/
+			.top-header-bar-container a, .top-header-bar-container p, .top-header-bar-container i, .top-header-bar-container span, .top-header-bar-container input, .top-header-bar-container{
+				color: black;
+			}
+			/*font awesome*/
+			.fa-shopping-cart:before, .fa-user:before{
+				color: black;
+			}
+			/*account hover*/
+			.top-header-bar-container .top-header-bar li.top-account a:hover{
+				color: dimgray;
+			}
+			
+			/*Bouton panier*/
+			.top-header-bar-container .top-header-bar li.top-cart{
+				background-color: #FFCFA8;
+			}
+			/*Bouton panier active*/
+			.top-header-bar-container .top-header-bar li.top-cart:hover{
+				/*background-color: #FFDEC4;*/
+				background-image: url(img/bgheader);
+			}
+
+		/*Barre header*/
+		#masthead{
+			/*background-color: #FFDEC4;*/
+			background-image: url(img/bgheader);
+		}
+			/*Titre*/
+			.site-header .site-title{
+				color: dimgray;
+			}
+			/*Nav*/
+			.sf-menu > li > a, .sf-menu > li.dropdown > a{
+				color: dimgray;
+			}
+			/*Nav active*/
+			.sf-menu > li.current-menu-item > a, .sf-menu > li.current > a{
+				color: black;
+			}
+
+		/*Barre sous slider*/
+			/*Texte*/
+			.main-slider .main-slider-bar span, .main-slider .main-slider-bar a, .main-slider .main-slider-bar i, .main-slider .main-slider-bar p, .main-slider .main-slider-bar h1, .main-slider .main-slider-bar h2, .main-slider .main-slider-bar h3, .main-slider .main-slider-bar h4, .main-slider .main-slider-bar h5, .main-slider .main-slider-bar h6{
+				color: black;
+			}
+
+
+
+	/*Slider*/
+		/*Couleur du texte "CTA Text"*/
+		/*.main-slider .hero-caption .year{
+			color: blue;
+		}*/
+		/*Couleur du texte "CTA Subtext"*/
+		/*.main-slider .hero-caption .caption{
+			color: green;
+		}*/
+		/*Bouttons en couleur*/
+		/*.main-slider .hero-caption .btn-group a{
+			border-color: yellow;
+			background-color: pink;
+		}*/
+
+		/*.main-slider .hero-caption .btn-group a:hover {
+			background: green;
+			border-color: blue;
+			}*/
+		/*Bouttons transparents*/
+		/*.main-slider .hero-caption .btn-group a:last-of-type:hover {
+  			background:green;
+  			border-color: blue;
+			}*/
+
+	/*Zones area*/
+	.content-area-1{
+		/*background-color: #FFDEC4;*/
+		background-image: url(img/bgarea.jpg);
+	}
+
+	.content-area-2{
+		background-color: #FFDEC4;
+	}
+
+	.content-area-3{
+		background-color: #FFDEC4;
+	}
+
+	.content-area-4{
+		background-color: #FFDEC4;
+	}
+
+	.content-area-5{
+		background-color: #FFDEC4;
+	}
+
+		/*Nouveaux prix après promo*/
+			/*Zone 1*/
+			.tyche-product .price ins{
+				color: #CF6B56;
+			}
+			/*Zone 2*/
+			.tyche-product.secondary .price ins{
+				color: #CF6B56;
+			}
+			/*Zone 3 Part 1*/
+			.tyche-product.green .price ins{
+				color: #CF6B56;
+			}
+			/*Zone 3 Part 2*/
+			.tyche-product.blue .price ins{
+				color: #CF6B56;
+			}
+			/*Zone 4*/
+			.tyche-product.orange .price ins{
+				color: #CF6B56;
+			}
+
+		/*Boutons*/
+			/*Boutons de base vert*/
+			.button.green, button.green:not(.pswp__button):not(.customize-partial-edit-shortcut-button), input.green[type="button"], input.green[type="reset"], input.green[type="submit"], .tyche-blog-post .green.more-link, .main-slider .hero-caption .btn-group a.green, .woocommerce a.green.button, .woocommerce div.product form.cart .green.button, .tyche-product-slider-container .tyche-banner a.green, .woocommerce .price_slider_amount .green.button, button:not(.pswp__button):not(.customize-partial-edit-shortcut-button).green, input[type="button"].green, input[type="reset"].green, input[type="submit"].green{
+				background: #eaab76; 
+				border-color: #eaab76;
+			}
+
+			.button.green:hover, button.green:hover:not(.pswp__button):not(.customize-partial-edit-shortcut-button), input.green[type="button"]:hover, input.green[type="reset"]:hover, input.green[type="submit"]:hover, .tyche-blog-post .green.more-link:hover, .main-slider .hero-caption .btn-group a.green:hover, .woocommerce div.product form.cart .green.button:hover, .tyche-product-slider-container .tyche-banner a.green:hover, .button.green:active, button.green:active:not(.pswp__button):not(.customize-partial-edit-shortcut-button), input.green[type="button"]:active, input.green[type="reset"]:active, input.green[type="submit"]:active, .tyche-blog-post .green.more-link:active, .main-slider .hero-caption .btn-group a.green:active, .woocommerce div.product form.cart .green.button:active, .tyche-product-slider-container .tyche-banner a.green:active, .button.green:focus, button.green:focus:not(.pswp__button):not(.customize-partial-edit-shortcut-button), input.green[type="button"]:focus, input.green[type="reset"]:focus, input.green[type="submit"]:focus, .tyche-blog-post .green.more-link:focus, .main-slider .hero-caption .btn-group a.green:focus, .woocommerce div.product form.cart .green.button:focus, .tyche-product-slider-container .tyche-banner a.green:focus, button:not(.pswp__button):not(.customize-partial-edit-shortcut-button).green:hover, button:not(.pswp__button):not(.customize-partial-edit-shortcut-button).green:active, button:not(.pswp__button):not(.customize-partial-edit-shortcut-button).green:focus, input[type="button"].green:hover, input[type="button"].green:active, input[type="button"].green:focus, input[type="reset"].green:hover, input[type="reset"].green:active, input[type="reset"].green:focus, input[type="submit"].green:hover, input[type="submit"].green:active, input[type="submit"].green:focus{
+				background: #e3904a; 
+				border-color: #e3904a;
+			}
+			
+			/*Bouton de base bleu foncé*/
+			.button.blue, button.blue:not(.pswp__button):not(.customize-partial-edit-shortcut-button), input.blue[type="button"], input.blue[type="reset"], input.blue[type="submit"], .tyche-blog-post .blue.more-link, .main-slider .hero-caption .btn-group a.blue, .woocommerce a.blue.button, .woocommerce div.product form.cart .blue.button, .tyche-product-slider-container .tyche-banner a.blue, .woocommerce .price_slider_amount .blue.button, button:not(.pswp__button):not(.customize-partial-edit-shortcut-button).blue, input[type="button"].blue, input[type="reset"].blue, input[type="submit"].blue{
+				background: #eaab76; 
+				border-color: #eaab76;
+			}
+
+			.button.blue:hover, button.blue:hover:not(.pswp__button):not(.customize-partial-edit-shortcut-button), input.blue[type="button"]:hover, input.blue[type="reset"]:hover, input.blue[type="submit"]:hover, .tyche-blog-post .blue.more-link:hover, .main-slider .hero-caption .btn-group a.blue:hover, .woocommerce div.product form.cart .blue.button:hover, .tyche-product-slider-container .tyche-banner a.blue:hover, .button.blue:active, button.blue:active:not(.pswp__button):not(.customize-partial-edit-shortcut-button), input.blue[type="button"]:active, input.blue[type="reset"]:active, input.blue[type="submit"]:active, .tyche-blog-post .blue.more-link:active, .main-slider .hero-caption .btn-group a.blue:active, .woocommerce div.product form.cart .blue.button:active, .tyche-product-slider-container .tyche-banner a.blue:active, .button.blue:focus, button.blue:focus:not(.pswp__button):not(.customize-partial-edit-shortcut-button), input.blue[type="button"]:focus, input.blue[type="reset"]:focus, input.blue[type="submit"]:focus, .tyche-blog-post .blue.more-link:focus, .main-slider .hero-caption .btn-group a.blue:focus, .woocommerce div.product form.cart .blue.button:focus, .tyche-product-slider-container .tyche-banner a.blue:focus, button:not(.pswp__button):not(.customize-partial-edit-shortcut-button).blue:hover, button:not(.pswp__button):not(.customize-partial-edit-shortcut-button).blue:active, button:not(.pswp__button):not(.customize-partial-edit-shortcut-button).blue:focus, input[type="button"].blue:hover, input[type="button"].blue:active, input[type="button"].blue:focus, input[type="reset"].blue:hover, input[type="reset"].blue:active, input[type="reset"].blue:focus, input[type="submit"].blue:hover, input[type="submit"].blue:active, input[type="submit"].blue:focus{
+				background: #e3904a; 
+				border-color: #e3904a;
+			}
+
+			/*Bouton de base noir*/
+			.button.black, button.black:not(.pswp__button):not(.customize-partial-edit-shortcut-button), input.black[type="button"], input.black[type="reset"], input.black[type="submit"], .tyche-blog-post .black.more-link, .main-slider .hero-caption .btn-group a.black, .woocommerce a.black.button, .woocommerce div.product form.cart .black.button, .tyche-product-slider-container .tyche-banner a.black, .woocommerce .price_slider_amount .black.button, button:not(.pswp__button):not(.customize-partial-edit-shortcut-button).black, input[type="button"].black, input[type="reset"].black, input[type="submit"].black{
+				background: #eaab76; 
+				border-color: #eaab76;
+			}
+
+			.button.black:hover, button.black:hover:not(.pswp__button):not(.customize-partial-edit-shortcut-button), input.black[type="button"]:hover, input.black[type="reset"]:hover, input.black[type="submit"]:hover, .tyche-blog-post .black.more-link:hover, .main-slider .hero-caption .btn-group a.black:hover, .woocommerce div.product form.cart .black.button:hover, .tyche-product-slider-container .tyche-banner a.black:hover, .button.black:active, button.black:active:not(.pswp__button):not(.customize-partial-edit-shortcut-button), input.black[type="button"]:active, input.black[type="reset"]:active, input.black[type="submit"]:active, .tyche-blog-post .black.more-link:active, .main-slider .hero-caption .btn-group a.black:active, .woocommerce div.product form.cart .black.button:active, .tyche-product-slider-container .tyche-banner a.black:active, .button.black:focus, button.black:focus:not(.pswp__button):not(.customize-partial-edit-shortcut-button), input.black[type="button"]:focus, input.black[type="reset"]:focus, input.black[type="submit"]:focus, .tyche-blog-post .black.more-link:focus, .main-slider .hero-caption .btn-group a.black:focus, .woocommerce div.product form.cart .black.button:focus, .tyche-product-slider-container .tyche-banner a.black:focus, button:not(.pswp__button):not(.customize-partial-edit-shortcut-button).black:hover, button:not(.pswp__button):not(.customize-partial-edit-shortcut-button).black:active, button:not(.pswp__button):not(.customize-partial-edit-shortcut-button).black:focus, input[type="button"].black:hover, input[type="button"].black:active, input[type="button"].black:focus, input[type="reset"].black:hover, input[type="reset"].black:active, input[type="reset"].black:focus, input[type="submit"].black:hover, input[type="submit"].black:active, input[type="submit"].black:focus{
+				background: #e3904a; 
+				border-color: #e3904a;
+			}
+
+			/*Bouton de base jaune*/
+			.button.orange, button.orange:not(.pswp__button):not(.customize-partial-edit-shortcut-button), input.orange[type="button"], input.orange[type="reset"], input.orange[type="submit"], .tyche-blog-post .orange.more-link, .main-slider .hero-caption .btn-group a.orange, .woocommerce a.orange.button, .woocommerce div.product form.cart .orange.button, .tyche-product-slider-container .tyche-banner a.orange, .woocommerce .price_slider_amount .orange.button, button:not(.pswp__button):not(.customize-partial-edit-shortcut-button).orange, input[type="button"].orange, input[type="reset"].orange, input[type="submit"].orange{
+				background: #eaab76; 
+				border-color: #eaab76;
+			}
+
+			.button.orange:hover, button.orange:hover:not(.pswp__button):not(.customize-partial-edit-shortcut-button), input.orange[type="button"]:hover, input.orange[type="reset"]:hover, input.orange[type="submit"]:hover, .tyche-blog-post .orange.more-link:hover, .main-slider .hero-caption .btn-group a.orange:hover, .woocommerce div.product form.cart .orange.button:hover, .tyche-product-slider-container .tyche-banner a.orange:hover, .button.orange:active, button.orange:active:not(.pswp__button):not(.customize-partial-edit-shortcut-button), input.orange[type="button"]:active, input.orange[type="reset"]:active, input.orange[type="submit"]:active, .tyche-blog-post .orange.more-link:active, .main-slider .hero-caption .btn-group a.orange:active, .woocommerce div.product form.cart .orange.button:active, .tyche-product-slider-container .tyche-banner a.orange:active, .button.orange:focus, button.orange:focus:not(.pswp__button):not(.customize-partial-edit-shortcut-button), input.orange[type="button"]:focus, input.orange[type="reset"]:focus, input.orange[type="submit"]:focus, .tyche-blog-post .orange.more-link:focus, .main-slider .hero-caption .btn-group a.orange:focus, .woocommerce div.product form.cart .orange.button:focus, .tyche-product-slider-container .tyche-banner a.orange:focus, button:not(.pswp__button):not(.customize-partial-edit-shortcut-button).orange:hover, button:not(.pswp__button):not(.customize-partial-edit-shortcut-button).orange:active, button:not(.pswp__button):not(.customize-partial-edit-shortcut-button).orange:focus, input[type="button"].orange:hover, input[type="button"].orange:active, input[type="button"].orange:focus, input[type="reset"].orange:hover, input[type="reset"].orange:active, input[type="reset"].orange:focus, input[type="submit"].orange:hover, input[type="submit"].orange:active, input[type="submit"].orange:focus{
+				background: #e3904a; 
+				border-color: #e3904a;
+			}
+
+			/*Bouton de base bleu*/
+			.button.light_blue, button.light_blue:not(.pswp__button):not(.customize-partial-edit-shortcut-button), input.light_blue[type="button"], input.light_blue[type="reset"], input.light_blue[type="submit"], .tyche-blog-post .light_blue.more-link, .main-slider .hero-caption .btn-group a.light_blue, .woocommerce a.light_blue.button, .woocommerce div.product form.cart .light_blue.button, .tyche-product-slider-container .tyche-banner a.light_blue, .woocommerce .price_slider_amount .light_blue.button, button:not(.pswp__button):not(.customize-partial-edit-shortcut-button).light_blue, input[type="button"].light_blue, input[type="reset"].light_blue, input[type="submit"].light_blue{
+				background: #eaab76; 
+				border-color: #eaab76;
+			}
+			.button.light_blue:hover, button.light_blue:hover:not(.pswp__button):not(.customize-partial-edit-shortcut-button), input.light_blue[type="button"]:hover, input.light_blue[type="reset"]:hover, input.light_blue[type="submit"]:hover, .tyche-blog-post .light_blue.more-link:hover, .main-slider .hero-caption .btn-group a.light_blue:hover, .woocommerce div.product form.cart .light_blue.button:hover, .tyche-product-slider-container .tyche-banner a.light_blue:hover, .button.light_blue:active, button.light_blue:active:not(.pswp__button):not(.customize-partial-edit-shortcut-button), input.light_blue[type="button"]:active, input.light_blue[type="reset"]:active, input.light_blue[type="submit"]:active, .tyche-blog-post .light_blue.more-link:active, .main-slider .hero-caption .btn-group a.light_blue:active, .woocommerce div.product form.cart .light_blue.button:active, .tyche-product-slider-container .tyche-banner a.light_blue:active, .button.light_blue:focus, button.light_blue:focus:not(.pswp__button):not(.customize-partial-edit-shortcut-button), input.light_blue[type="button"]:focus, input.light_blue[type="reset"]:focus, input.light_blue[type="submit"]:focus, .tyche-blog-post .light_blue.more-link:focus, .main-slider .hero-caption .btn-group a.light_blue:focus, .woocommerce div.product form.cart .light_blue.button:focus, .tyche-product-slider-container .tyche-banner a.light_blue:focus, button:not(.pswp__button):not(.customize-partial-edit-shortcut-button).light_blue:hover, button:not(.pswp__button):not(.customize-partial-edit-shortcut-button).light_blue:active, button:not(.pswp__button):not(.customize-partial-edit-shortcut-button).light_blue:focus, input[type="button"].light_blue:hover, input[type="button"].light_blue:active, input[type="button"].light_blue:focus, input[type="reset"].light_blue:hover, input[type="reset"].light_blue:active, input[type="reset"].light_blue:focus, input[type="submit"].light_blue:hover, input[type="submit"].light_blue:active, input[type="submit"].light_blue:focus{
+				background: #e3904a; 
+				border-color: #e3904a;
+			}
+		/*Traits sous les titres des catégories/zones*/
+			/*Trait vert*/
+			.widget.green .widget-title > span:before{
+				background: #eaab76;
+			}
+			/*Trait bleu foncé*/
+			.widget.blue .widget-title > span:before{
+				background: #eaab76;
+			}
+			/*Trait noir*/
+			.widget.black .widget-title > span:before{
+				background: #eaab76;
+			}
+			/*Trait jaune*/
+			.widget.orange .widget-title > span:before{
+				background: #eaab76;
+			}
+			/*Trait bleu*/
+			.widget.light_blue .widget-title > span:before{
+				background: #eaab76;
+			}
+
+	/*Footer*/
+	.site-footer{
+		background-color: #E9AA76;
+	}
+
+		/*Titre*/
+		.site-footer h1 span, .site-footer h2 span, .site-footer h3 span, .site-footer h4 span, .site-footer h5 span, .site-footer h6 span{
+			color: dimgray;
+		}
+		/*Trait*/
+		.site-footer h5 span:before{
+			background-color: dimgray;
+		}
+		/*Texte méta*/
+		.site-footer .widget_meta ul li a, .site-footer .widget_categories ul li a, .site-footer .widget_archive ul li a{
+			color: dimgray;
+		}
+		.site-footer ul > li:before{
+			color: dimgray !important;
+		}
+		.site-footer .widget ul li a:hover, .site-footer .widget ul li a:focus{
+			color: white;
+		}
+		/*Texte derniers articles blog*/
+		.site-footer .widget.widget_tyche_recent .tyche-recent-post-widget .tyche-post-content p a{
+			color: dimgray;
+		}
+		.site-footer .widget.widget_tyche_recent .tyche-recent-post-widget .tyche-post-content p a:hover, .site-footer .widget.widget_tyche_recent .tyche-recent-post-widget .tyche-post-content p a:focus{
+			color: white;
+		}
+		/*Etiquettes*/
+		.site-footer .widget.widget_tag_cloud a{
+			color: dimgray;
+			border-color: dimgray;
+		}
+		.widget.widget_tag_cloud a:visited{
+			background-color: dimgray;
+		}
+		.widget.widget_tag_cloud a:hover{
+			background-color: dimgray;
+		}
+		/*Texte widget texte*/
+		.site-footer ul, .site-footer ol, .site-footer a, .site-footer p, .site-footer span, .site-footer i{
+			color: dimgray;
+		}
+		/*Texte widget pages*/
+		.site-footer .widget ul li a{
+			color: dimgray;
+		}
+
+
+	/*Barre Copyright*/
+	.site-copyright{
+		background-color: #CF8C56;
+	}
+
+
+	/*Background général de toutes les pages*/
+	.site-content{
+		background: #FFECDD;
+	}
+
+	/*Page boutique*/
+		/*Liste déroulante "Tri par défaut"*/
+		.woocommerce .woocommerce-ordering select.orderby{
+			color: dimgray;
+			border-color: #ccc;
+			background-color: white;
+		}
+		/*Nouveau prix après promo*/
+		.woocommerce ul.products li.product .price ins{
+			color: #CF6B56;
+		}
+
+	/*Page not found*/
+		/*Widget Archives*/
+			/*Menu déroulant*/
+			#secondary select, .page-template-frontpage-template select{
+				color: dimgray;
+				border-color: #ccc;
+				background-color: white;
+			}
+
+		/*Widget Etiquettes*/
+		.widget.widget_tag_cloud a{
+			color: dimgray;
+			border-color: dimgray;
+		}
+
+		.widget.widget_tag_cloud a:visited{
+			color: black;
+			background-color: dimgray;
+		}
+		.widget.widget_tag_cloud a:hover{
+			background-color: dimgray;
+			border-color: dimgray;
+		}
